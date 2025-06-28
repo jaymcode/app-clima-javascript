@@ -1,0 +1,74 @@
+body{
+    font-family: "Merriweather Sans", sans-serif;
+    background-color: rgb(39, 58, 122);
+}
+
+.container{
+    max-width: 60%;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(28, 41, 87);
+    box-shadow: 0 2px 4px rgb(44, 44, 44);
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    text-shadow: 0 1px 1px black;
+}
+
+h2{
+    color: rgb(190, 190, 190);
+    font-size: 32px;
+    text-shadow: 0 1px 1px black;
+}
+
+p1{
+    color: rgb(255, 150, 65);
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+p2{
+    color: rgb(137, 208, 218);
+    font-size: 20px;
+    display: block;
+}
+
+p3{
+    color: rgb(212, 212, 212);
+    font-size: 20px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    border-style: double;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px 20px;
+    margin-left: 2px;
+    font-size: 16px;
+    background-color: rgb(43, 146, 201);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(0, 123, 189);
+}
+
+#responseData{
+    margin-top: 20px;
+    font-size: 18px;
+}
